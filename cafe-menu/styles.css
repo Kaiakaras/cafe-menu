@@ -1,0 +1,65 @@
+body {
+    background-image: url(https://images.unsplash.com/photo-1675306408031-a9aad9f23308?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    
+}
+
+.menu {
+    background-color: burlywood;
+    max-width: 460px;
+    min-width: 250px;
+    margin: 50px auto;
+    padding: 20px;
+}
+
+h1, h2, .established {
+    text-align: center;
+    text-transform: uppercase;
+}
+.established {
+    font-style: italic;
+}
+
+article {
+    display: flex;
+    margin: 0 10px;
+    justify-content: space-between;
+    padding: 0px;
+}
+
+.bean {
+    display: flex;
+    margin: 0 auto;
+    max-width: 30px;
+}
+
+.coffee, .desserts {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.hr {
+    width: 400px;
+    height: 2px;
+    background-color: red;
+    border-color: black;
+    z-index: 3;
+    margin: 10px auto;
+}
+
+article p {
+    margin-top: 0;
+}
+footer {
+    text-align: center;
+    margin: 0 auto;
+    font-size: 0.9em;
+}
+
+a {
+    color: black;
+}
+
+a:hover, a:visited {
+    color: brown;
+}
